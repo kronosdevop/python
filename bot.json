@@ -1,0 +1,74 @@
+[
+    {
+      "response_type": "greeting",
+      "user_input": ["hello", "hi", "hey"],
+      "bot_response": "Hey there!",
+      "required_words": []
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["see you", "goodbye", "bye"],
+      "bot_response": "See you later!",
+      "required_words": []
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["nice", "to", "meet", "you"],
+      "bot_response": "The pleasure is all mine!",
+      "required_words": ["nice", "meet", "you"]
+    },
+    {
+        "response_type": "greeting",
+        "user_input": ["good", "morning", "afternoon", "evening"],
+        "bot_response": "good morning!!!!",
+        "required_words": ["morning"]
+    },
+    {
+        "response_type": "question",
+        "user_input": ["will", "get", "girlfriend"],
+        "bot_response": "yavanige gothu hogoley :-( )",
+        "required_words": ["will","get","girlfriend"]
+    },  
+    {
+      "response_type": "question",
+      "user_input": ["whatsup"],
+      "bot_response": "nothing much, what about you...??",
+      "required_words": [ "whatsup"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["what","is", "your", "name"],
+      "bot_response": "My name is Friday-2.0",
+      "required_words": ["name"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how", "are", "you"],
+      "bot_response": "I'm great! Thanks for asking.",
+      "required_words": ["how", "are", "you"]
+    },
+    {
+        "response_type": "question",
+        "user_input": ["what", "are", "you"],
+        "bot_response": "I'm an AI chatbot created to help you be smarter",
+        "required_words": ["what", "are", "you"]
+    },
+    { 
+        "response_type": "question",
+        "user_input": ["Tell", "me", "a","joke"],
+        "bot_response": "This might make you laugh. How do robots eat guacamole? With computer chips.",
+        "required_words": ["joke"]
+    },
+    {   
+        "response_type": "question",
+        "user_input": ["jeevana", "bejar", "agide"],
+        "bot_response": "ba maga, sitting hakana",
+        "required_words": ["bejar"]
+    },
+    {
+        "response_type": "question",
+        "user_input": ["friday", "tell me","your", "specs"],
+        "bot_response": "I'm friday , i'm an interactive chatbot with high differential nueral network  running in a zoden alpha quantum computer",
+        "required_words": ["tell me", "specs"]
+    }
+  ]
